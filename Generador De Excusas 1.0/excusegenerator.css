@@ -1,0 +1,24 @@
+body{
+		background:black;
+	}
+	.main{
+		background:white;
+		padding:20px;
+		width:50%;
+		left:30%;
+		position:relative;
+		font-size:120%;
+	}
+
+	#excuse{
+		width:98%; background:black;color:red;
+		font-size:inherit;
+
+	}
+	textarea{
+		font-size:inherit;
+	}
+
+	#generate{
+		width:97%;
+	}

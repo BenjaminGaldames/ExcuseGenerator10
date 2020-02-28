@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+	<style>
+	
+	
+	</style>
+		<link rel="stylesheet" href="bootstrap.min.css"/>
+				<link rel="stylesheet" href="excusegenerator.css"/>
+
+		<script src="excuse-generator.js" type="text/javascript"></script>
+		<title> Generador De (Memes) Excusas! </title>
+		<meta description="Generador de Memes"/>
+		<meta keywords="Generador de (memes) excusas"/>
+	</head>
+	<body>
+		<div class="well main">
+			<h1>Generador De (Memes) Excusas!</h1>
+
+			
+            Generador de excusas cuando alguien te invita a salir, debes entregar una tarea o debes dar una excusa completamente funcional.
+            
+			<h3>....Y tu excusa es...</h3>
+			<textarea  rows=5 id="excuse" readonly="readonly">
+			
+			</textarea>
+			<a class="btn btn-primary" id="generate" onclick="getExcuse()">Generar Una Excusa </a>
+			<br/><br/>
+			
+			<br/>
+			
+		</div>	
+
+	</body>
+	<script>
+	function getExcuse(){
+		var excuse=excuseGenerator();
+		document.getElementById("excuse").innerHTML=excuse;
+	}
+	getExcuse();
+
+
+
+
+	</script>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=Somesh"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'light',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    }   
+  });
+</script>
+
+</html>
